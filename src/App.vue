@@ -9,7 +9,7 @@
                 </RadioGroup>
 
                 <RadioGroup name="GROUP_3" :items="group3" v-model="value3" :disabled="!group3Active"/>
-                <b-button class="mt-3" variant="primary" size="sm" @click="toggleGroup3" style="margin-left: 30px">{{group3Active ? 'Деактивировать' : 'Активировать'}} GROUP_3</b-button>
+                <b-button class="mt-3" variant="primary" size="sm" @click="toggleGroup3" style="margin-left: 30px">{{group3Active ? 'Деактивировать' : 'Активировать'}} группу 3</b-button>
 
                 <fieldset class="check-group -radio">
                     <RadioItem name="GROUP_4" value="1" v-model="value4">Значение 1</RadioItem>
